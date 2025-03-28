@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "",
+    "name": "weather_native_app",
     "slug": "weather_native_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,10 +12,12 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": ["android.permission.ACCESS_FINE_LOCATION"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.weather_native_app"
     },
     "web": {
       "bundler": "metro",
